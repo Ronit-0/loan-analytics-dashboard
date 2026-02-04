@@ -119,7 +119,7 @@ if uploaded_file is not None and not use_default:
 # ================================
 if "raw_df" not in st.session_state:
     if use_default:
-        st.session_state.raw_df = pd.read_csv("test_Y3wMUE5_7gLdaTN.csv")
+        st.session_state.raw_df = pd.read_csv("data/test_Y3wMUE5_7gLdaTN.csv")
     else:
         st.session_state.raw_df = load_csv_safe(uploaded_file)
 
