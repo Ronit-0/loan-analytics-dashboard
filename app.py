@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 # ================================
 st.set_page_config(
     page_title="Interactive Loan Analytics Dashboard",
-    page_icon="📊",
+    page_icon="📈",
     layout="wide"
 )
 
